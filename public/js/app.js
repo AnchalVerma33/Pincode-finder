@@ -1,5 +1,3 @@
-console.log("Client side JS loading!")
-
 // fetch("http://localhost:3000/pin?address=Lucknow").then((response)=>{
 //     response.json().then((data)=>{
 //         if(data.error){
