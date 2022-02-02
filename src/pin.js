@@ -8,7 +8,7 @@ const app = express()
 const Publicdirectory = path.join(__dirname,"../public")
 const viewsdirectory = path.join(__dirname,"../views")
 
-
+const PORT = process.env.PORT||3000
 app.use(express.static(Publicdirectory))
 app.set("view engine","hbs")
 app.set("views",viewsdirectory)
@@ -60,7 +60,7 @@ app.get("/pin",(req,res)=>{
 
 // })
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log("server is starting")
 })
 
