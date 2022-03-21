@@ -14,9 +14,6 @@ app.set("view engine","hbs")
 app.set("views",viewsdirectory)
 
 
-
-
-
 app.get("",(req,res)=>{
     res.render("index",{
         title:"PinCode"
