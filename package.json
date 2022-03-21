@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node pin.js"
+    "start" : "node ./src/pin.js"
   },
   "keywords": [],
   "author": "",
